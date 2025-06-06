@@ -90,23 +90,6 @@
       margin-bottom: 10px;
     }
 
-    .pedido-botao {
-        margin-top: 2rem;
-    }
-
-     .pedido-botao a {
-        background: #25D366;
-        padding: 1rem 2rem;
-        border-radius: 10px;
-        color: #fff;
-        text-decoration: none;
-        font-weight: bold;
-        transition: background 0.3s;
-     }
-
-     .pedido-botao a:hover {
-        background: #1ebe5d;
-     }
 
     .about {
       background-color: #1a1a1a;
