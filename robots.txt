@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://mikael-nascimento.github.io/Irresist-veis-/Sitemap.xml
