@@ -3,7 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Batata Recheada Delícia</title>
+  <title>Batata Recheada Delícia | Delivery de Batatas em Piabetá</title>
+  <meta name="description" content="Delivery de batata recheada assada em Piabetá! Faça seu pedido online, opções clássicas e vegetarianas com preço acessível.">
+  <meta name="keywords" content="batata recheada, lanche barato, delivery de batata, comida em Piabetá, batata assada delivery">
+  <meta name="author" content="Batata Recheada Delícia">
+
+  <!-- Open Graph para redes sociais -->
+  <meta property="og:title" content="Batata Recheada Delícia">
+  <meta property="og:description" content="As melhores batatas recheadas da cidade com entrega rápida!">
+  <meta property="og:image" content="./assets/imagem/1749133208147.png">
+  <meta property="og:type" content="website">
+
   <link rel="stylesheet" href="./assets/css/index.css">
 
 </head>
@@ -23,14 +33,15 @@
   </header>
 
   <section class="hero">
-    <h1>Batatas Recheadas Irresistíveis!</h1>
+    <h1>Batatas Recheadas Irresistíveis!<br> Em Piabetá
+    </h1>
   </section>
 
   <section class="menu" id="menu">
     <h2>Nosso Cardápio</h2>
     <div class="cardapio">
       <div class="item">
-        <img src="./assets/imagem/ChatGPT Image 4 de jun. de 2025, 21_25_56.png" alt="" class="imag-cardapio">
+        <img src="./assets/imagem/ChatGPT Image 4 de jun. de 2025, 21_25_56.png" alt="Batata assada com queijo, bacon e requeijão" class="imag-cardapio">
         <h3>Batata Clássica</h3>
         <p>Batata assada com queijo, bacon e requeijão.</p>
         <p>R$ 18,00</p>
@@ -38,7 +49,7 @@
         <button onclick="adicionarItem('Batata Recheada Clássica', 20)">Adicionar</button>
       </div>
       <div class="item">
-        <img src="./assets/imagem/ChatGPT Image 4 de jun. de 2025, 21_25_56.png" alt="" class="imag-cardapio">
+        <img src="./assets/imagem/ChatGPT Image 4 de jun. de 2025, 21_25_56.png" alt="Queijo vegano, tomate seco, rúcula e azeitonas" class="imag-cardapio">
         <h3>Batata Veggie</h3>
         <p>Queijo vegano, tomate seco, rúcula e azeitonas.</p>
         <p>R$ 20,00</p>
@@ -46,7 +57,7 @@
         <button onclick="adicionarItem('Batata Veggie', 25)">Adicionar</button>
       </div>
       <div class="item">
-        <img src="./assets/imagem/ChatGPT Image 4 de jun. de 2025, 21_25_56.png" alt="" class="imag-cardapio">
+        <img src="./assets/imagem/ChatGPT Image 4 de jun. de 2025, 21_25_56.png" alt="Frango desfiado, catupiry e milho verde" class="imag-cardapio">
         <h3>Batata Frango Catupiry</h3>
         <p>Frango desfiado, catupiry e milho verde.</p>
         <p>R$ 22,00</p>
@@ -54,7 +65,7 @@
         <button onclick="adicionarItem('Batata Frango Catupiry', 20)">Adicionar</button>
       </div>
       <div class="item">
-        <img src="./assets/imagem/ChatGPT Image 4 de jun. de 2025, 21_25_56.png" alt="" class="imag-cardapio">
+        <img src="./assets/imagem/ChatGPT Image 4 de jun. de 2025, 21_25_56.png" alt="Calabresa acebolada, cheddar e orégano" class="imag-cardapio">
         <h3>Batata Calabresa</h3>
         <p>Calabresa acebolada, cheddar e orégano.</p>
         <p>R$ 21,00</p>
@@ -63,6 +74,11 @@
       </div>
     </div>
 
+    <div class="pedido-botao">
+        <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido%20de%20batata%20recheada!" target="_blank">
+            Fazer Pedido no WhatsApp
+        </a>
+    </div>
   </section>
 
   <aside id="carrinho">
@@ -70,6 +86,7 @@
     <ul id="lista-pedido"></ul>
     <p>Total: R$ <span id="total">0.00</span></p>
     <button onclick="fazerPedido()">Fazer Pedido via WhatsApp</button>
+    <p>Permitir Localização</p>
   </aside>
 
   <section class="about" id="sobre">
