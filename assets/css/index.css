@@ -34,6 +34,7 @@
     .hero {
       background-image: url('../imagem/ChatGPT\ Image\ 4\ de\ jun.\ de\ 2025\,\ 21_25_56.png');
       background-repeat: no-repeat;
+      background-size: cover;
       background-position: center;
      /* background: url('3b5084_a1a605eb717b48c58559c18c22d5a762~mv2.webp') no-repeat center center/cover;*/
       height: 400px;
