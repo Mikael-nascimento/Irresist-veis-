@@ -86,7 +86,7 @@ function fazerPedido() {
 }
 
 function enviarWhatsApp(msg) {
-  const telefone = "5524992612533"; // Coloque seu número aqui
+  const telefone = "552499261253x"; // Coloque seu número aqui
   const url = `https://wa.me/${telefone}?text=${msg}`;
   window.open(url, "_blank");
 }
